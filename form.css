@@ -1,0 +1,114 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap');
+
+#title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8A2BE2;
+    margin-left: 7%;
+    Position: relative;
+    left: 15%
+}
+
+#subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8A2BE2;
+    margin-left: 13%;
+}
+
+#check {
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #8A2BE2;
+    background-color: #fff2fc;
+    padding-left: 30%;
+}
+
+.formBox {
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    padding: 3% 3% 3% 5%;
+    border: -1px solid #8A2BE2;
+    box-shadow: 0px 0px 15px #cdc5d4, 0px 0px 10px #8A2BE2;  
+    display: inline-block;
+    margin: 15px 15px 15px;
+    position: relative;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    color: #8A2BE2;
+}
+
+.group:before, .group::after {
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.box {
+    margin-bottom: 1em;
+}
+
+.box label {
+    margin-bottom: 0.2em;
+    color: #8A2BE2;
+    display: block;
+}
+
+fieldset.group .box {
+    float: left;
+    margin-right: 1em;
+}
+
+.box input[type="text"], .box input[type="email"], .box select, .box textarea {
+    padding: 0.2em;
+    border: 1px solid #8A2BE2;
+    box-shadow: 2px 2px 2px #cdc5d4;
+    display: block;
+}
+
+.box select option {
+    padding-right: 1em;
+}
+
+.box input:focus, .box select:focus, .box textarea:focus {
+    background: #cdc5d4
+}
+
+.button1 {
+    font-size: 1.2em;
+    background: #8A2BE2;
+    border: 0;
+    color:  #cdc5d4;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #cdc5d4;
+    text-shadow: 1px 1px 1px #cdc5d4;
+    position: relative;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.button1:hover {
+    background: #cdc5d4;
+    box-shadow: inset 2px 2px 2px #8A2BE2;
+    text-shadow: none;
+}
+
+
